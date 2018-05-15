@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background-color: #e9fbfc;
+}
+
+/****--- NAV  BAR ---****/
+
+.navbar{
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+
+}
+
+.navbar .active{
+	color: #a899b6;
+}
+
+
+.navbar ul{
+	width: 80%;
+	margin: 0 auto;
+	height: 100px;
+	padding: 35px;
+	text-align: center;
+}
+
+.navbar ul li{
+	display: inline-block;
+	padding: 20px;
+	list-style: none;
+	margin: 0 2.1rem;
+	
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+.navbar ul li a:hover{
+	color: #a899b6;
+}
+
+.register a{
+	padding: 10px 20px;
+	border: 2px solid  #a899b6;
+}
+.register a:hover{
+	padding: 10px 20px;
+	border: 2px solid  #D9C9D9;
+	/*background-color: #D9C9D9;*/
+}
+
+
+/****--- FOOTER  SECTION ---****/
+
+
+footer{
+	width: 100%;
+	height: 70px;
+overflow: hidden;
+}
+
+.footer-left{
+	width: 100%;
+	height: 70px;
+	background-color: #000;
+
+}
+
+
+.footer-left p{
+	width:50%;
+	padding: 20px;
+	color: #fff;
+	float: left;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.social-media{
+	width: 30%;
+}
+
+.footer .social-media{
+	text-align: center;
+	float: right;
+	padding: 20px 5px;
+	word-spacing: 2rem;
+}
+
+.social-media a{
+	color: #fff;
+}
+
+.social-media a i{
+	padding: 5px 5px;
+
+}
+
+
+
+/****--- MAIN   SECTION ---****/
+
+.section{
+	width: 100%;
+	height: 150vh;
+}
+
+.section h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.2rem;
+	width: 30%;
+	padding: 150px 60px 30px 60px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.section .center{
+	width: 70%;
+	margin: 0 auto;
+	background-color: #e9fbfc;
+
+}
+
+.section .flower{
+	
+	text-align: center;
+	margin-bottom: 20px 50px;
+	padding: 0 0 20px 0;
+
+}
+
+.bella img,
+.brad img{
+	width: 360px;
+	height: 240px;
+	margin: 0 50px;
+	
+}
+
+.bella,
+.brad{
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #e9fbfc;
+}
+
+.bella h3,
+.brad h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	padding: 40px;
+}
+
+.bella p,
+.brad p{
+	width: 50%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+/****--- PICTURES   SECTION ---****/
+
+.pics{
+	background-color: #fff;
+	width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+
+
+.pic a{
+	margin: 0 auto;
+}
+
+.pic a img{
+	display: inline-block;
+	width: 328px;
+	height: 308px;
+	margin: 30px 30px;
+
+	
+}
